@@ -1,0 +1,90 @@
+body{
+  .row.stats{
+      margin-top: 60px;
+    }
+
+  .accuracy-tbl{
+    max-height: 500px;
+    overflow-y: scroll;
+    table{
+
+      thead{
+        color: white;
+      }
+      tbody{
+        tr{
+          &:nth-of-type(even){
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+
+  .bttn{
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 10px 5px;
+  }
+  .stats-search{
+    background: white;
+    padding: 9px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+
+    .twitter-typeahead{
+      width: 100%;
+      input{
+        border:none;
+        right:0px;
+        width: 100%;
+        padding: 3px;
+        border-bottom: 1px solid rgba(199, 199, 199, 0.5);
+
+        &.tt-input{
+          color: black;
+          font-weight: bolder;
+        }
+
+        &.tt-hint{
+          color:grey;
+        }
+      }
+
+      .tt-menu{
+        right: 0px;
+        width: 100%;
+
+        .tt-dataset{
+          color: black;
+          margin-top: 15px;
+          background: white;
+          border-radius: 5px;
+
+          .tt-suggestion, .empty-message{
+            color: grey;
+            padding:8px;
+            font-size: 1.2em;
+            border-left: 10px solid rgba(199, 199, 199, 0);
+            border-right: 10px solid rgba(199, 199, 199, 0);
+            border-bottom: 1px solid rgba(199, 199, 199, 0.5);
+
+              strong{
+                color: black    ;
+              }
+
+            &.tt-cursor{
+              color: #3f51b5;
+              border-bottom-color: #3f51b5;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}

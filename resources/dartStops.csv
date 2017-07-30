@@ -1,0 +1,34 @@
+# This DataSet is sourced from the following sources:
+# https://data.dublinked.ie/cgi-bin/rtpi/routeinformation?operator=ir&routeid=DART
+# stop_id,stop_name,stop_lat,stop_lng
+"CNLLY","Dublin Connolly Station",53.35310395,-6.245911853
+"KLSTR","Killester Station",53.37302367,-6.204419734
+"HTOWN","Harmonstown Station",53.37864299,-6.191310467
+"RAHNY","Raheny Station",53.38152357,-6.176991616
+"KBRCK","Kilbarrack Station",53.38699076,-6.161634789
+"HWTHJ","Howth Junction Station",53.3908757,-6.156723029
+"BYSDE","Bayside Station",53.39172392,-6.136783146
+"SUTTN","Sutton Station",53.39203502,-6.114477456
+"HOWTH","Howth Station",53.38905167,-6.074014348
+"CTARF","Clontarf Road Station",53.3628819,-6.227534162
+"GCDK","Grand Canal Dock Station",53.33972372,-6.237732061
+"PMNCK","Portmarnock Station",53.41692188,-6.151195699
+"MHIDE","Malahide Station",53.45094727,-6.156486961
+"TARA","Tara Street Station",53.34701377,-6.254248953
+"LDWNE","Lansdowne Road Station",53.33465412,-6.229788978
+"SIDNY","Sydney Parade Station",53.32061306,-6.211123779
+"BTSTN","Booterstown Station",53.30992094,-6.194979986
+"BROCK","Blackrock Station",53.30268184,-6.178332894
+"SEAPT","Seapoint Station",53.2991279,-6.16512032
+"SHILL","Salthill Station",53.29535727,-6.15205865
+"DLERY","Dun Laoghaire Station",53.2950601,-6.134975707
+"SCOVE","Sandycove Station",53.28782864,-6.12711608
+"GLGRY","Glenageary Station",53.28119631,-6.122893316
+"DLKEY","Dalkey Station",53.27564294,-6.103326745
+"KILNY","Killiney Station",53.25571031,-6.1131667
+"SKILL","Shankill Station",53.23635297,-6.116908363
+"KCOOL","Kilcoole Station",53.10697099,-6.041120584
+"BRAY","Bray Station",53.20426234,-6.100457639
+"GSTNS","Greystones Station",53.14420427,-6.060854921
+"PERSE","Dublin Pearse Station",53.34331459,-6.24829196
+"SMONT","Sandymount Station",53.32808438,-6.221163303

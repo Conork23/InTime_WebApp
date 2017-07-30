@@ -1,0 +1,347 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Mon, 14 Nov 2016 18:53:30 GMT",
+    "expires": "Mon, 14 Nov 2016 18:54:00 GMT",
+    "cache-control": "public, max-age=30",
+    "server": "mafe",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"36,35,34\"",
+    "accept-ranges": "none",
+    "vary": "Accept-Encoding",
+    "connection": "close"
+  },
+  "json": {
+    "geocoded_waypoints": [
+      {
+        "geocoder_status": "OK",
+        "partial_match": true,
+        "place_id": "ChIJrdeJ4YwOZ0gR1N43jbVeQvs",
+        "types": [
+          "establishment",
+          "light_rail_station",
+          "point_of_interest",
+          "transit_station"
+        ]
+      },
+      {
+        "geocoder_status": "OK",
+        "place_id": "ChIJVWZ3G-ENZ0gRUxINc528TkI",
+        "types": [
+          "route"
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "bounds": {
+          "northeast": {
+            "lat": 53.38040849999999,
+            "lng": -6.243269499999999
+          },
+          "southwest": {
+            "lat": 53.34682369999999,
+            "lng": -6.281729299999999
+          }
+        },
+        "copyrights": "Map data ©2016 Google",
+        "legs": [
+          {
+            "arrival_time": {
+              "text": "19:36",
+              "time_zone": "Europe/Dublin",
+              "value": 1479152172
+            },
+            "departure_time": {
+              "text": "19:04",
+              "time_zone": "Europe/Dublin",
+              "value": 1479150282
+            },
+            "distance": {
+              "text": "7.3 km",
+              "value": 7252
+            },
+            "duration": {
+              "text": "32 mins",
+              "value": 1890
+            },
+            "end_address": "Tolka Estate, Ballygall, Dublin, Ireland",
+            "end_location": {
+              "lat": 53.38012699999999,
+              "lng": -6.281147
+            },
+            "start_address": "Mayor Square - NCI, North Dock, Dublin, Co. Dublin, Ireland",
+            "start_location": {
+              "lat": 53.34916759999999,
+              "lng": -6.243269499999999
+            },
+            "steps": [
+              {
+                "distance": {
+                  "text": "2.1 km",
+                  "value": 2122
+                },
+                "duration": {
+                  "text": "10 mins",
+                  "value": 589
+                },
+                "end_location": {
+                  "lat": 53.3468519,
+                  "lng": -6.2736604
+                },
+                "html_instructions": "Tram towards Tallaght Luas Stop",
+                "polyline": {
+                  "points": "iwrdIlkbe@s@zYCLQbIG`@kAbDIfADV@`@_@dCI~@?p@DRFPfBtALV@b@ErAHvA|@fDzBfVf@fH~A|W`@xFDNhAzRr@nJj@pL@`BEjC"
+                },
+                "start_location": {
+                  "lat": 53.34916759999999,
+                  "lng": -6.243269499999999
+                },
+                "transit_details": {
+                  "arrival_stop": {
+                    "location": {
+                      "lat": 53.3468519,
+                      "lng": -6.2736604
+                    },
+                    "name": "Four Courts"
+                  },
+                  "arrival_time": {
+                    "text": "19:14",
+                    "time_zone": "Europe/Dublin",
+                    "value": 1479150871
+                  },
+                  "departure_stop": {
+                    "location": {
+                      "lat": 53.34916759999999,
+                      "lng": -6.243269499999999
+                    },
+                    "name": "Mayor Square - NCI"
+                  },
+                  "departure_time": {
+                    "text": "19:04",
+                    "time_zone": "Europe/Dublin",
+                    "value": 1479150282
+                  },
+                  "headsign": "Tallaght Luas Stop",
+                  "line": {
+                    "agencies": [
+                      {
+                        "name": "Luas",
+                        "url": "http://www.transportforireland.ie/"
+                      }
+                    ],
+                    "name": "Red Line",
+                    "vehicle": {
+                      "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/tram2.png",
+                      "name": "Tram",
+                      "type": "TRAM"
+                    }
+                  },
+                  "num_stops": 5
+                },
+                "travel_mode": "MOCK"
+              },
+              {
+                "distance": {
+                  "text": "0.1 km",
+                  "value": 102
+                },
+                "duration": {
+                  "text": "2 mins",
+                  "value": 102
+                },
+                "end_location": {
+                  "lat": 53.3472851,
+                  "lng": -6.2750248
+                },
+                "html_instructions": "Walk to Law Library",
+                "polyline": {
+                  "points": "yhrdIjihe@wAnG"
+                },
+                "start_location": {
+                  "lat": 53.3468519,
+                  "lng": -6.2736604
+                },
+                "steps": [
+                  {
+                    "distance": {
+                      "text": "0.1 km",
+                      "value": 102
+                    },
+                    "duration": {
+                      "text": "2 mins",
+                      "value": 102
+                    },
+                    "end_location": {
+                      "lat": 53.3472851,
+                      "lng": -6.2750248
+                    },
+                    "polyline": {
+                      "points": "yhrdIjihe@wAnG"
+                    },
+                    "start_location": {
+                      "lat": 53.3468519,
+                      "lng": -6.2736604
+                    },
+                    "travel_mode": "WALKING"
+                  }
+                ],
+                "travel_mode": "WALKING"
+              },
+              {
+                "distance": {
+                  "text": "5.0 km",
+                  "value": 4964
+                },
+                "duration": {
+                  "text": "15 mins",
+                  "value": 883
+                },
+                "end_location": {
+                  "lat": 53.3804116,
+                  "lng": -6.281637799999999
+                },
+                "html_instructions": "Bus towards Harristown",
+                "polyline": {
+                  "points": "qkrdIzqhe@BOuCg@eFIsDKcA]}Aw@mD{B]]gE}@uB_@kACaA\\e@^wAd@oI\\?p@jHi@kHh@?q@iA?_@?oFk@yA_@m@UwBcAk@QaBCqBJeD@q@DiB?oFuBe@W}Bq@mCKgAQiANgCfAsCbCSOMo@FuAJeATyCEo@eEwB{G_EcA}@y@aAw@b@uAvAqA~@e@D}@c@wBsBc@Ym@AoCf@_@@oBQq@Bu@Zc@b@c@r@{AlDS`@{@pCSbAg@lEuBbJy@vGS~Ag@lCm@xEUpEAjCEhB]dI}A[}FoA}AQGjBC?"
+                },
+                "start_location": {
+                  "lat": 53.3472851,
+                  "lng": -6.2750248
+                },
+                "transit_details": {
+                  "arrival_stop": {
+                    "location": {
+                      "lat": 53.3804116,
+                      "lng": -6.281637799999999
+                    },
+                    "name": "Griffith Road"
+                  },
+                  "arrival_time": {
+                    "text": "19:35",
+                    "time_zone": "Europe/Dublin",
+                    "value": 1479152127
+                  },
+                  "departure_stop": {
+                    "location": {
+                      "lat": 53.3472851,
+                      "lng": -6.2750248
+                    },
+                    "name": "Law Library"
+                  },
+                  "departure_time": {
+                    "text": "19:20",
+                    "time_zone": "Europe/Dublin",
+                    "value": 1479151244
+                  },
+                  "headsign": "Harristown",
+                  "line": {
+                    "agencies": [
+                      {
+                        "name": "Dublin Bus",
+                        "url": "http://www.transportforireland.ie/"
+                      }
+                    ],
+                    "short_name": "83A",
+                    "vehicle": {
+                      "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                      "name": "Bus",
+                      "type": "BUS"
+                    }
+                  },
+                  "num_stops": 17
+                },
+                "travel_mode": "MOCK"
+              },
+              {
+                "distance": {
+                  "text": "64 m",
+                  "value": 64
+                },
+                "duration": {
+                  "text": "1 min",
+                  "value": 44
+                },
+                "end_location": {
+                  "lat": 53.38012699999999,
+                  "lng": -6.281147
+                },
+                "html_instructions": "Walk to Tolka Estate, Ballygall, Dublin, Ireland",
+                "polyline": {
+                  "points": "qzxdIf{ie@HoBl@L"
+                },
+                "start_location": {
+                  "lat": 53.3804116,
+                  "lng": -6.281637799999999
+                },
+                "steps": [
+                  {
+                    "distance": {
+                      "text": "37 m",
+                      "value": 37
+                    },
+                    "duration": {
+                      "text": "1 min",
+                      "value": 26
+                    },
+                    "end_location": {
+                      "lat": 53.3803639,
+                      "lng": -6.281084
+                    },
+                    "html_instructions": "Walk <b>east</b> on <b>Glasilawn Rd</b> towards <b>Tolka Estate</b>",
+                    "polyline": {
+                      "points": "qzxdIf{ie@HoB"
+                    },
+                    "start_location": {
+                      "lat": 53.3804116,
+                      "lng": -6.281637799999999
+                    },
+                    "travel_mode": "WALKING"
+                  },
+                  {
+                    "distance": {
+                      "text": "27 m",
+                      "value": 27
+                    },
+                    "duration": {
+                      "text": "1 min",
+                      "value": 18
+                    },
+                    "end_location": {
+                      "lat": 53.38012699999999,
+                      "lng": -6.281147
+                    },
+                    "html_instructions": "Turn <b>right</b> onto <b>Tolka Estate</b>",
+                    "maneuver": "turn-right",
+                    "polyline": {
+                      "points": "gzxdIvwie@l@L"
+                    },
+                    "start_location": {
+                      "lat": 53.3803639,
+                      "lng": -6.281084
+                    },
+                    "travel_mode": "WALKING"
+                  }
+                ],
+                "travel_mode": "WALKING"
+              }
+            ],
+            "traffic_speed_entry": [],
+            "via_waypoint": []
+          }
+        ],
+        "overview_polyline": {
+          "points": "iwrdIlkbe@w@hZQbIG`@kAbDIfADV@`@i@dE?p@DRFPfBtALV@b@ErAHvA|@fDzBfVf@fH~A|Wf@hGhAzRr@nJj@pL@`BEjCwAnGBOuCg@eFIsDKcA]}Aw@mD{B]]}H}AkACaA\\e@^wAd@oI\\?p@jHi@kHh@?q@iA?_@?oFk@yA_@m@UwBcAk@QaBCqBJeD@q@DiB?oFuBe@W}Bq@mCKgAQiANgCfAsCbCSOMo@FuA`@_FEo@eEwB{G_EcA}@y@aAw@b@uAvAqA~@e@D}@c@wBsBc@Ym@AoCf@_@@oBQq@Bu@Zc@b@c@r@oBnE{@pCSbAg@lEuBbJmAvJg@lCm@xEUpEAjCEhB]dI{IkB}AQGjBC?HoBl@L"
+        },
+        "summary": "",
+        "warnings": [
+          "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+        ],
+        "waypoint_order": []
+      }
+    ],
+    "status": "OK"
+  }
+}

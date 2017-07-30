@@ -1,0 +1,92 @@
+extends ../base_layout.pug
+
+block content
+    header
+      .container
+        .row
+          .col-sm-7
+            .header-content
+              .header-content-inner
+                h1
+                  | In Time - An Alarm for Punctual People.
+                |
+                a.btn.btn-outline.btn-xl.page-scroll(href='#download') Download Now!
+          .col-sm-5
+            .device-container
+              .device-mockup.galaxy_s5.portrait.black
+                .device
+                  .screen
+                    img.img-responsive(src='img/app.png', alt='')
+                  .button
+
+    section#download.download.bg-primary.text-center
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            h2.section-heading Never be late again.
+            p In Time is available for Android devices running Marshmello or newer.
+            .badges
+                a.btn.btn-outline.btn-xl.download(href='/app/InTime.apk') Download!
+
+    section#features.features
+      .container
+        .row
+          .col-lg-12.text-center
+            .section-heading
+              h2 Features
+              //- p.text-muted Check out what you can do with this app theme!
+              hr
+        .row
+          .col-md-4
+            .device-container
+              .device-mockup.galaxy_s5.portrait.white
+                .device
+                  .screen
+                    img.img-responsive(src='img/app2.png', alt='')
+                  .button
+          .col-md-8
+            .container-fluid
+              .row
+                .col-md-6
+                  .feature-item
+                    i.icon-map.text-primary
+                    h3 Travel Time
+                    p.text-muted Calculates accurate travel time to your destination.
+                .col-md-6
+                  .feature-item
+                    i.icon-hourglass.text-primary
+                    h3 Adjust Activation Time
+                    p.text-muted Activates early if there are unforeseen traffic conditions.
+              .row
+                .col-md-6
+                  .feature-item
+                    i.fa.fa-car.text-primary
+                    h3 Traffic Conditions
+                    p.text-muted Uses current and historical traffic conditions to predict travel time.
+                .col-md-6
+                  .feature-item
+                    i.icon-lock.text-primary
+                    h3 Secure
+                    p.text-muted All request data is encrypted using SSL and sent over HTTPS
+    section.cta
+      .cta-content
+        .container
+          h2
+            | Say Goodbye
+            br
+            | to Lateness
+          |
+          a.btn.btn-outline.btn-xl(href='/app/InTime.apk') Download!
+      .overlay
+
+    section#contact.contact.bg-primary
+      .container
+        h2
+          | Find Me Here
+        ul.list-inline.list-social
+          li.social-github
+            a(href='https://github.com/Conork23')
+              i.fa.fa-github
+          li.social-linkedin
+            a(href='http://linkedin.com/in/ckeenan23/')
+              i.fa.fa-linkedin

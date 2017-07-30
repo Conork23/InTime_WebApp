@@ -1,0 +1,46 @@
+{
+  "name": "in_time_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "gulp",
+    "test": "NODE_ENV=test mocha --timeout 3000 --recursive 2>&1 | tee reports/report_$(date \"+%d-%m-%Y\").txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conork23/InTime_WebApp.git"
+  },
+  "author": "Conor Keenan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Conork23/InTime_WebApp/issues"
+  },
+  "homepage": "https://github.com/Conork23/InTime_WebApp#readme",
+  "dependencies": {
+    "@google/maps": "^0.3.0",
+    "async": "^2.1.4",
+    "body-parser": "^1.16.0",
+    "bower": "^1.8.0",
+    "csv-parse": "^1.1.7",
+    "express": "^4.14.0",
+    "moment": "^2.15.2",
+    "mongodb": "^2.2.22",
+    "pug": "^2.0.0-beta10",
+    "request": "^2.75.0",
+    "yaml-config": "^0.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-header": "^1.8.8",
+    "gulp-less": "^3.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}

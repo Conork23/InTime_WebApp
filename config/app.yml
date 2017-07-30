@@ -1,0 +1,15 @@
+default:
+  port: 3000
+  RTPI: "https://data.dublinked.ie/cgi-bin/rtpi/"
+  Google:
+    Key: "[API KEY]"
+    Directions: "https://maps.googleapis.com/maps/api/directions/json?"
+  dateTimeFormat: "DD-MM-YYYY HH:mm:ss"
+  dbName: "InTime"
+  dbEvalCollection: "trips"
+  dbStatsCollection: "autoTrips"
+test:
+  port: 3001
+  dbName: "InTime_Test"
+  dbEvalCollection: "trips"
+  dbStatsCollection: "autoTrips"

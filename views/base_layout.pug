@@ -1,0 +1,16 @@
+html(lang='en')
+  head
+    title= title
+    //- Head
+    include includes/head.pug
+  body
+    //- Header
+    include includes/navbar.pug
+    //- Main Content
+    block content
+    //- Footer
+    include includes/footer.pug
+    //- JS
+    include includes/javascript.pug
+    //- Page JS
+    block js

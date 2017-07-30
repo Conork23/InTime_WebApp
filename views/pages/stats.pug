@@ -1,0 +1,56 @@
+extends ../base_layout.pug
+
+block content
+  header
+    .container
+      .row.stats
+        .col-md-8
+          .col-md-5
+            div(class="from-input stats-search")
+              input.typeahead(type="text", placeholder="Travelling From...")
+          .col-md-5
+            div(class="to-input stats-search")
+              input.typeahead(type="text", placeholder="Travelling To...")
+          .col-md-2
+            button.btn.btn-default.bttn.btn-lg.checkBtn(type="button") Check
+          .row
+            .col.col-md-8.col-md-offset-2
+              .main-graph
+                canvas(id="main-graph")
+          
+
+          
+        .col-md-4
+          h1 Accuracy: #{accuracy.mean}%
+          .row.accuracy
+            .panel
+              canvas(id="accuracy_graph")
+          .row.accuracy-tbl
+            table.table.table-striped.fixed-head
+              thead
+                tr
+                  th Date & Time
+                  th Estimated Duration
+                  th Actual Duration     
+              tbody
+                for x in result.reverse()
+                  tr
+                    td #{x.time}
+                    td #{x.estimated}
+                    td #{x.actual}
+                for x in result.reverse()
+                  tr
+                    td #{x.time}
+                    td #{x.estimated}
+                    td #{x.actual}
+
+
+
+block js
+  script(src='bower_components/chart.js/dist/Chart.min.js')
+  script(type='text/javascript').
+
+    var data = !{JSON.stringify(accuracy)};
+    var results = !{JSON.stringify(result)}
+
+  script(src='js/custom.min.js')
