@@ -5,4 +5,4 @@ This repo contains the source code for the Web Application of the In Time alarm 
 
 ## Set Up
 
-In the config YML file, found /Users/Conor/Desktop/InTime_WebApp/config/app.yml replace the '[API KEY]' with a valid Google Directions API Key.
+In the config YML file, found at /Users/Conor/Desktop/InTime_WebApp/config/app.yml replace the '[API KEY]' with a valid Google Directions API Key.
